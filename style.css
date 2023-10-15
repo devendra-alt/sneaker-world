@@ -1,0 +1,88 @@
+:root {
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5rem 5.4rem;
+}
+
+.menu {
+  width: 3.4rem;
+  height: 3.4rem;
+  cursor: pointer;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.sign-up {
+  background-color: rgba(77, 105, 250, 1);
+  padding: 0.5rem 1.2rem;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-bar > a {
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.hero {
+  background: url(./assetes/background.png);
+  background-size: 100% 100%;
+}
+
+.main-box {
+  width: 40%;
+  height: 100vh;
+  background-color: #fff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.sneaker-heading {
+  width: 60%;
+  margin: 0 auto;
+  background-image: url(./assetes/Waves.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 5rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.main-box-text {
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 0 7rem;
+  text-align: center;
+}
+
+.shop-now {
+  cursor: pointer;
+  background: none;
+  padding: 1.7rem 3.4rem;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.social {
+  cursor: pointer;
+}
